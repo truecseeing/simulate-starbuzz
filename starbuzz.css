@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.left_stylesheet{
+    width: 30%;
+    top:0;
+    bottom: 0;
+    overflow: hidden;
+}
+.logo_img{
+    width:40px;
+    height:40px;
+    float: left;
+}
+.linetitle{
+    font-family: "Adobe Caslon Pro Bold";
+    font-size:20px;
+    margin-left:55px;
+    margin-top: 15px;
+    float: left;
+}
+.right_stylesheet{
+    width:1200px;
+    height:720px;
+    float:right;
+    cursor: pointer;
+    overflow: hidden;
+}
+#menu{
+    margin-top: 15px;
+    margin-left: 230px;
+    float: left;
+}
+#right_img{
+    overflow: hidden;
+}
+#right_img{
+    width: 4800px;
+    height: 720px;
+}
+.advtisement img {
+    width: 1200px;
+    float: left;
+    height: 720px;
+    animation: myself 12s linear infinite;
+}
+@keyframes myself {
+    0%{
+    transform: translateX(0);
+    }
+    10%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-1200px);
+    }
+    35%{
+        transform: translateX(-1200px);
+    }
+    50%{
+        transform: translateX(-2400px);
+    }
+    60%{
+        transform: translateX(-2400px);
+    }
+    75%{
+        transform: translateX(-3600px);
+    }
+    85%{
+        transform: translateX(-3600px);
+    }
+    100%{
+        transform: translateX(-4800px);
+    }
+}
+@-moz-keyframes myself {/* firefox */
+    0%{
+        transform: translateX(0);
+    }
+    10%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-962px);
+    }
+    35%{
+        transform: translateX(-962px);
+    }
+    50%{
+        transform: translateX(-1924px);
+    }
+    60%{
+        transform: translateX(-1924px);
+    }
+    75%{
+        transform: translateX(-2886px);
+    }
+    85%{
+        transform: translateX(-2886px);
+    }
+    100%{
+        transform: translateX(-3848px);
+    }
+}
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+    0%{
+        transform: translateX(0);
+    }
+    10%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-962px);
+    }
+    35%{
+        transform: translateX(-962px);
+    }
+    50%{
+        transform: translateX(-1924px);
+    }
+    60%{
+        transform: translateX(-1924px);
+    }
+    75%{
+        transform: translateX(-2886px);
+    }
+    85%{
+        transform: translateX(-2886px);
+    }
+    100%{
+        transform: translateX(-3848px);
+    }
+}
+.left_stylesheet{
+    width: 30%;
+    margin: 0;
+    position: relative;
+    top: 0;
+    right: 0;
+
+}
